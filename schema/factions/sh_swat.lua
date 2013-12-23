@@ -10,11 +10,11 @@ FACTION.whitelist = true;
 FACTION.material = "wip";
 FACTION.models = {
         female = {
-                        "mmodels/europee_orange1.mdl",
+                        "models/tlsaudrl2548/blackops2/swat1_fem.mdl",
 
         },
         male = {
-                        "models/europee_orange1.mdl",
+                        "models/tlsaudrl2548/blackops2/swat1.mdl",
 
         };
 };
