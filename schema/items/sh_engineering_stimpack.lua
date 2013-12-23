@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -16,7 +16,7 @@ ITEM.description = "A Stimpack branded stimulator promising to enhance the body.
 
 -- Called when a player uses the item.
 function ITEM:OnUse(player, itemEntity)
-	player:UpdateAttribute(ATB_ENGINEERING, 1);
+	player:UpdateAttribute(ATB_ENGINEERING, 2);
 end;
 
 -- Called when a player drops the item.
