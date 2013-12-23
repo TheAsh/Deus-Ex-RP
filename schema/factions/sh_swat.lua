@@ -3,7 +3,7 @@
         without permission of its author (kurozael@gmail.com).
 --]]
 
-local FACTION = Clockwork.faction:New("Special Weapons and Tactics");
+local FACTION = Clockwork.faction:New("LAPD: Special Weapons and Tactics");
 
 FACTION.useFullName = true;
 FACTION.whitelist = true;
