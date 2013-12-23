@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -18,7 +18,6 @@ PhaseFour.stunEffects = {};
 
 Clockwork.config:AddToSystem("Intro text small","intro_text_small", "The small text displayed for the introduction.");
 Clockwork.config:AddToSystem("Intro text big", "intro_text_big", "The big text displayed for the introduction.");
-Clockwork.config:AddToSystem("Alliance cost", "alliance_cost", "The amount of cash it costs to create an alliance.", 0, 10000);
 Clockwork.config:AddToSystem("Maximum safebox weight", "max_safebox_weight", "The maximum weight a player's safebox can hold.", 0, 300);
 
 Clockwork.datastream:Hook("Frequency", function(data)
@@ -124,41 +123,6 @@ Clockwork.datastream:Hook("Disguise", function(data)
 	end);
 end);
 
-Clockwork.datastream:Hook("InviteAlliance", function(data)
-	Derma_Query("Do you want to join the '"..data.."' alliance?", "Join Alliance", "Yes", function()
-		Clockwork.datastream:Start("JoinAlliance", data);
-		
-		gui.EnableScreenClicker(false);
-	end, "No", function()
-		gui.EnableScreenClicker(false);
-	end);
-	
-	gui.EnableScreenClicker(true);
-end);
-
-Clockwork.datastream:Hook("AllyKick", function(data)
-	data:SetSharedVar("alliance", "");
-	data:SetSharedVar("rank", RANK_RCT);
-	
-	if (IsValid(PhaseFour.alliancePanel)) then
-		PhaseFour.alliancePanel:Rebuild();
-	end;
-end);
-
-Clockwork.datastream:Hook("AllySetRank", function(data)
-	data[1]:SetSharedVar("rank", data[2]);
-	
-	if (IsValid(PhaseFour.alliancePanel)) then
-		PhaseFour.alliancePanel:Rebuild();
-	end;
-end);
-
-Clockwork.datastream:Hook("CreateAlliance", function(data)
-	Derma_StringRequest("Alliance", "What is the name of the alliance?", nil, function(text)
-		Clockwork.datastream:Start("CreateAlliance", text);
-	end);
-end);
-
 Clockwork.datastream:Hook("Death", function(data)
 	if (type(data) == "boolean" or !IsValid(data)) then
 		PhaseFour.deathType = "UNKNOWN CAUSES";
@@ -238,51 +202,9 @@ function playerMeta:IsBad()
 	return self:GetSharedVar("honor") < 50;
 end;
 
--- A function to get a player's bounty.
-function playerMeta:GetBounty()
-	return self:GetSharedVar("bounty");
-end;
-
 -- A function to get whether a player is wanted.
 function playerMeta:IsWanted()
 	return self:GetSharedVar("bounty") > 0;
-end;
-
--- A function to get whether a player is a leader.
-function playerMeta:IsLeader()
-	return self:GetSharedVar("rank") == RANK_MAJ;
-end;
-
--- A function to get a player's rank.
-function playerMeta:GetRank(bString)
-	local rank = self:GetSharedVar("rank");
-	
-	if (bString) then
-		if (rank == RANK_PVT) then
-			return "Pvt";
-		elseif (rank == RANK_SGT) then
-			return "Sgt";
-		elseif (rank == RANK_LT) then
-			return "Lt";
-		elseif (rank == RANK_CPT) then
-			return "Cpt";
-		elseif (rank == RANK_MAJ) then
-			return "Maj";
-		else
-			return "Rct";
-		end;
-	else
-		return rank;
-	end;
-end;
-
--- A function to get a player's alliance.
-function playerMeta:GetAlliance()
-	local alliance = self:GetSharedVar("alliance");
-	
-	if (alliance != "") then
-		return alliance;
-	end;
 end;
 
 -- A function to get whether a text entry is being used.
