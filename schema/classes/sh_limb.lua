@@ -3,12 +3,12 @@
 	without permission of its author (kurozael@gmail.com).
 --]]
 
-local CLASS = Clockwork.class:New("Civilian");
+local CLASS = Clockwork.class:New("LIMB");
 	CLASS.wages = 50;
-	CLASS.color = Color(150, 125, 100, 255);
+	CLASS.color = Color(056, 082, 073, 255);
 	CLASS.factions = {FACTION_CIVILIAN};
 	CLASS.isDefault = true;
 	CLASS.wagesName = "Salary";
-	CLASS.description = "The casual civilian within the city.";
-	CLASS.defaultPhysDesc = "Wearing tattered clothing";
+	CLASS.description = "A worker at the LIMB clinic.";
+	CLASS.defaultPhysDesc = "Wearing a clean LIMB uniform.";
 CLASS_CIVILIAN = CLASS:Register();
