@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -53,6 +53,9 @@ Clockwork.quiz:AddQuestion("I know that because of the logs, I will never get aw
 Clockwork.quiz:AddQuestion("When creating a character, I will use a full and appropriate name.", 1, "Yes.", "No.");
 Clockwork.quiz:AddQuestion("I understand that the script has vast logs that are checked often.", 1, "Yes.", "No.");
 Clockwork.quiz:AddQuestion("I will read the directory in the main menu for help and guides.", 1, "Yes.", "No.");
+Clockwork.quiz:AddQuestion("Do you understand roleplaying is slow paced and relaxed?", 1, "Yes.", "No.");
+Clockwork.quiz:AddQuestion("What is roleplay all about?.", 2, "Getting cool augments and items!", "Developing your character.");
+Clockwork.quiz:AddQuestion("Can you type properly for a serious roleplaying game?", 2, "yes i can", "Yes, I can.");
 
 RANK_RCT = 0;
 RANK_PVT = 1;
