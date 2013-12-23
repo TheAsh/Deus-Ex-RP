@@ -6,7 +6,7 @@
 local CLASS = Clockwork.class:New("Versalife");
 	CLASS.wages = 50;
 	CLASS.color = Color(159, 091, 017, 255);
-	CLASS.factions = {FACTION_CIVILIAN};
+	CLASS.factions = {FACTION_CORP};
 	CLASS.isDefault = true;
 	CLASS.wagesName = "Salary";
 	CLASS.description = "Staff at versalife laboratories.";
