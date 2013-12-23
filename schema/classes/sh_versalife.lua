@@ -11,4 +11,4 @@ local CLASS = Clockwork.class:New("Versalife");
 	CLASS.wagesName = "Salary";
 	CLASS.description = "Staff at versalife laboratories.";
 	CLASS.defaultPhysDesc = "Wearing standard versalife clothing";
-CLASS_CIVILIAN = CLASS:Register();
+CLASS_VERSALIFE = CLASS:Register();

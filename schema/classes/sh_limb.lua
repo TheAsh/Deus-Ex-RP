@@ -11,4 +11,4 @@ local CLASS = Clockwork.class:New("LIMB");
 	CLASS.wagesName = "Salary";
 	CLASS.description = "A worker at the LIMB clinic.";
 	CLASS.defaultPhysDesc = "Wearing a clean LIMB uniform.";
-CLASS_CIVILIAN = CLASS:Register();
+CLASS_LIMB = CLASS:Register();

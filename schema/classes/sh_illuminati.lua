@@ -11,4 +11,4 @@ local CLASS = Clockwork.class:New("Iluminati");
 	CLASS.wagesName = "Salary";
 	CLASS.description = "The not so casual civilian within the city.";
 	CLASS.defaultPhysDesc = "Wearing new clothing";
-CLASS_CIVILIAN = CLASS:Register();
+CLASS_ILLUMINATI = CLASS:Register();
