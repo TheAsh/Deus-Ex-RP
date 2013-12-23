@@ -3,7 +3,7 @@
 	without permission of its author (kurozael@gmail.com).
 --]]
 
-local CLASS = Clockwork.class:New("Civilian");
+local CLASS = Clockwork.class:New("Iluminati");
 	CLASS.wages = 50;
 	CLASS.color = Color(150, 125, 100, 255);
 	CLASS.factions = {FACTION_CIVILIAN};
