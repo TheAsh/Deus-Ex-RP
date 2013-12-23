@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -76,8 +76,8 @@ Clockwork.kernel:AddDirectory("models/salem/*.mdl");
 Clockwork.kernel:AddDirectory("models/bio_suit/*.mdl");
 Clockwork.kernel:AddDirectory("models/srp/*.mdl");
 
-Clockwork.config:Add("intro_text_small", "You find it's just as screwed up outside.", true);
-Clockwork.config:Add("intro_text_big", "WHEN YOU LEAVE THE CONFINES OF THE LAB", true);
+Clockwork.config:Add("intro_text_small", "Welcome to a new reality.", true);
+Clockwork.config:Add("intro_text_big", "Where disorder begins.", true);
 Clockwork.config:Add("alliance_cost", 2000, true);
 Clockwork.config:Add("max_safebox_weight", 30, true);
 
@@ -98,7 +98,6 @@ Clockwork.hint:Add("Grammar", "Try to speak correctly in-character, and don't us
 Clockwork.hint:Add("Healing", "You can heal players by using the Give command in your belongings.");
 Clockwork.hint:Add("Healing", "You will gain honor for healing good characters with medical equipment.");
 Clockwork.hint:Add("Zip Tie", "Press F3 while looking at a character to use a zip tie.");
-Clockwork.hint:Add("Alliance", "You can create an alliance by using the command $command_prefix$AllyCreate.");
 Clockwork.hint:Add("F4 Hotkey", "Press F4 to open up the hotkey menu, you can bind hotkeys in your belongings.");
 Clockwork.hint:Add("Search Char", "Press F3 while looking at a tied character to search them.");
 
