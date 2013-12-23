@@ -78,7 +78,6 @@ Clockwork.kernel:AddDirectory("models/srp/*.mdl");
 
 Clockwork.config:Add("intro_text_small", "Welcome to a new reality.", true);
 Clockwork.config:Add("intro_text_big", "Where disorder begins.", true);
-Clockwork.config:Add("alliance_cost", 2000, true);
 Clockwork.config:Add("max_safebox_weight", 30, true);
 
 Clockwork.config:Get("scale_attribute_progress"):Set(0.5);
