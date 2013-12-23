@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -11,11 +11,11 @@ ITEM.weight = 1;
 ITEM.useText = "Inject";
 ITEM.category = "Stimpacks"
 ITEM.business = true;
-ITEM.description = "A Stimpack branded stimulator promising to enhance the body.\nThis stimpack permanently enhances your aerodynamics by ten points.";
+ITEM.description = "A Stimpack branded stimulator promising to enhance the body.\nThis stimpack permanently enhances your aerodynamics.";
 
 -- Called when a player uses the item.
 function ITEM:OnUse(player, itemEntity)
-	player:UpdateAttribute(ATB_AERODYNAMICS, 10);
+	player:UpdateAttribute(ATB_AERODYNAMICS, 5);
 end;
 
 -- Called when a player drops the item.
