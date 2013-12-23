@@ -25,7 +25,7 @@ Clockwork.option:SetKey("name_business", "Crafting");
 Clockwork.option:SetKey("menu_music", "music/hl2_song19.mp3");
 Clockwork.option:SetKey("model_shipment", "models/items/item_item_exper.mdl");
 Clockwork.option:SetKey("model_cash", "models/props_lab/exp01a.mdl");
-Clockwork.option:SetKey("name_cash", "Rations");
+Clockwork.option:SetKey("name_cash", "Virtual Credits");
 Clockwork.option:SetKey("gradient", "phasefour/bg_gradient");
 
 -- Called when the Clockwork shared variables are added.
