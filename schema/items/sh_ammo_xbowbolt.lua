@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ local ITEM = Clockwork.item:New("ammo_base");
 	ITEM.cost = 175;
 	ITEM.model = "models/items/boxzrounds.mdl";
 	ITEM.weight = 1;
+	ITEM.access = "V";
 	ITEM.uniqueID = "ammo_xbowbolt";
 	ITEM.business = true;
 	ITEM.ammoClass = "xbowbolt";
