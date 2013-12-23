@@ -4,7 +4,7 @@
 	"title"			"Phase Four"
 	"author"		"kurozael"
 	"version"		"1.03"
-	"description"	"A roleplaying schema developed by Cloud Sixteen set under experimental conditions."
+	"description"	"A roleplaying schema developed by The Ash Gaming simulating Deus Ex."
 	"menusystem"	"1"
 	"workshopid"	"138552031"
 }
