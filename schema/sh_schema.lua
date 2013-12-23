@@ -57,12 +57,9 @@ Clockwork.quiz:AddQuestion("Do you understand roleplaying is slow paced and rela
 Clockwork.quiz:AddQuestion("What is roleplay all about?.", 2, "Getting cool augments and items!", "Developing your character.");
 Clockwork.quiz:AddQuestion("Can you type properly for a serious roleplaying game?", 2, "yes i can", "Yes, I can.");
 
-RANK_RCT = 0;
-RANK_PVT = 1;
-RANK_SGT = 2;
-RANK_LT = 3;
-RANK_CPT = 4;
-RANK_MAJ = 5;
+Clockwork.flag:Add("W", "PAC Editor", "Allows you to use PAC Editor.");
+Clockwork.flag:Add("v", "General Goods", "Access to purchase General Goods.");
+Clockwork.flag:Add("V", "Blackmarket Goods", "Access to purchase Blackmarket Goods");
 
 -- A function to get a player's honor text.
 function PhaseFour:PlayerGetHonorText(player, honor)
