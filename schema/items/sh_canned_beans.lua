@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ ITEM.name = "Canned Beans";
 ITEM.cost = 30;
 ITEM.model = "models/props_lab/jar01b.mdl";
 ITEM.weight = 0.6;
+ITEM.access = "v";
 ITEM.useText = "Eat";
 ITEM.category = "Consumables"
 ITEM.business = true;
