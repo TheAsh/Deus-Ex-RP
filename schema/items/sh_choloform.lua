@@ -8,6 +8,7 @@ ITEM.name = "Chloroform";
 ITEM.cost = 300;
 ITEM.model = "models/props_junk/garbage_newspaper001a.mdl";
 ITEM.weight = 0.1;
+ITEM.access = "v";
 ITEM.useText = "Knocks out the person applied on to.";
 ITEM.business = true;
 ITEM.description = "Using this on somebody will knock them out cold.";
