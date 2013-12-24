@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ ITEM.name = "Chinese Takeout";
 ITEM.cost = 40;
 ITEM.model = "models/props_junk/garbage_takeoutcarton001a.mdl";
 ITEM.weight = 0.8;
+ITEM.access = "v";
 ITEM.useText = "Eat";
 ITEM.category = "Consumables"
 ITEM.business = true;
