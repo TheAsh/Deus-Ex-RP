@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -7,6 +7,7 @@ local ITEM = Clockwork.item:New();
 ITEM.name = "Backpack";
 ITEM.model = "models/props_junk/garbage_bag001a.mdl";
 ITEM.weight = 0.25;
+ITEM.access = "v";
 ITEM.category = "Storage";
 ITEM.isRareItem = true;
 ITEM.description = "A tattered backpack, it doesn't look like it will hold much.";
