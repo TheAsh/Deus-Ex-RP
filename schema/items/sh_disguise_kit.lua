@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ ITEM.name = "Disguise Kit";
 ITEM.cost = 1000;
 ITEM.model = "models/props_lab/box01a.mdl";
 ITEM.weight = 1;
+ITEM.access = "v";
 ITEM.category = "Reusables"
 ITEM.business = true;
 ITEM.description = "Allows you to disguise yourself as someone else\nfor two minutes, but it can only be used once.";
