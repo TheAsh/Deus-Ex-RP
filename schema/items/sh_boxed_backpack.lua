@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ ITEM.name = "Boxed Backpack";
 ITEM.cost = 100;
 ITEM.model = "models/props_junk/cardboard_box004a.mdl";
 ITEM.weight = 0.5;
+ITEM.access = "v";
 ITEM.useText = "Open";
 ITEM.category = "Storage"
 ITEM.business = true;
