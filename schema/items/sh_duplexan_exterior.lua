@@ -1,6 +1,5 @@
-
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +7,7 @@ local ITEM = Clockwork.item:New("custom_clothes");
 	ITEM.cost = 5000;
 	ITEM.name = "Duplexan Exterior";
 	ITEM.weight = 3;
+	ITEM.access = "M";
 	ITEM.business = true;
 	ITEM.armorScale = 0.375;
 	ITEM.replacement = "models/spx7.mdl";
