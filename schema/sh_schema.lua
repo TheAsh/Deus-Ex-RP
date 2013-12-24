@@ -60,6 +60,8 @@ Clockwork.quiz:AddQuestion("Can you type properly for a serious roleplaying game
 Clockwork.flag:Add("W", "PAC Editor", "Allows you to use PAC Editor.");
 Clockwork.flag:Add("v", "General Goods", "Access to purchase General Goods.");
 Clockwork.flag:Add("V", "Blackmarket Goods", "Access to purchase Blackmarket Goods");
+Clockwork.flag:Add("M", "Blackmarket Goods", "Access to purchase heavy armor and uniforms.");
+Clockwork.flag:Add("M", "Blackmarket Goods", "Access to purchase light armor and uniforms.");
 
 -- A function to get a player's honor text.
 function PhaseFour:PlayerGetHonorText(player, honor)
