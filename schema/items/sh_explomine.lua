@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -9,6 +9,7 @@ ITEM.cost = 100;
 ITEM.batch = 1;
 ITEM.model = "models/props_combine/combine_mine01.mdl";
 ITEM.weight = 2;
+ITEM.access = "v";
 ITEM.business = true;
 ITEM.category = "Landmines";
 ITEM.description = "When another character touches it, it will deal explosion damage to them.\nThis is not permanent and can be destroyed by others.";
