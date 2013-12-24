@@ -6,7 +6,6 @@
 local ITEM = Clockwork.item:New("weapon_base", true);
 ITEM.name = "Custom Weapon";
 ITEM.hasFlashlight = true;
-ITEM.access = "m";
 
 -- A function to get the item's mark name.
 function ITEM:GetMarkName()
