@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -9,6 +9,7 @@ ITEM.cost = 200;
 ITEM.model = "models/props_wasteland/prison_padlock001a.mdl";
 ITEM.plural = "Breaches";
 ITEM.weight = 0.3;
+ITEM.access = "v";
 ITEM.useText = "Place";
 ITEM.business = true;
 ITEM.description = "A small device which looks similiar to a padlock.";
