@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -8,6 +8,7 @@ ITEM.name = "Bandage";
 ITEM.cost = 35;
 ITEM.model = "models/props_wasteland/prison_toiletchunk01f.mdl";
 ITEM.weight = 0.5;
+ITEM.access = "v";
 ITEM.useText = "Apply";
 ITEM.category = "Medical"
 ITEM.business = true;
