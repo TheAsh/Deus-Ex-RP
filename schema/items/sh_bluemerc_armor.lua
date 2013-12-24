@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	ï¿½ 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -7,6 +7,7 @@ local ITEM = Clockwork.item:New("custom_clothes");
 	ITEM.cost = 3500;
 	ITEM.name = "Bluemerc Armor";
 	ITEM.weight = 2;
+	ITEM.access = "M";
 	ITEM.business = true;
 	ITEM.armorScale = 0.275;
 	ITEM.replacement = "models/salem/blue.mdl";
